@@ -1,0 +1,103 @@
+.pokecard-container {
+    display: flex;
+    justify-content: center;
+    margin: 300px auto 0 auto;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.pokecards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.item {
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.disabled-page {
+  color: #808e9b;
+}
+
+.active {
+  border: solid 1px #808e9b;
+  border-radius: 40px;
+  color: #808e9b;
+}
+
+.next {
+  border-left: solid 1px #808e9b;
+  font-size: 40px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.pagination {
+  align-items: center;
+  background-color: #ee1515;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  width: 560px;
+  padding-left: 0;
+  border-radius: 30px;
+}
+
+.pagination-page {
+  font-weight: 700;
+}
+
+.previous {
+  border-right: solid 1px #808e9b;
+  font-size: 40px;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.note {
+    font-size: 10px;
+    margin-bottom: 30px;
+}

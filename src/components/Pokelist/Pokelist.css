@@ -1,0 +1,27 @@
+.pokelistContainer {
+    margin-top: -20px;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pokelistItem {
+    background-color: #ee1515;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.pokelistItem:hover{
+    cursor: pointer;
+    background-color: #b12b21;
+    color: #3b3939;
+}
+
+.activeItem {
+    background-color: #b12b21;
+    color: #3b3939;
+}
